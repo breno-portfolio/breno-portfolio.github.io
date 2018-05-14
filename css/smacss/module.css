@@ -1,0 +1,23 @@
+@import "base.css";
+
+.description {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.border-left {
+  border-left: var(--border) !important;
+}
+
+.border-right {
+  border-right: var(--border) !important;
+}
+
+.hr-bottom {
+  height: 5px;
+  background: var(--laranja);
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  width: 170px;
+}
