@@ -40,7 +40,7 @@ a {
   color: var(--preto);
 }
 
-a:hover {
+a li:hover {
   color: var(--laranja);
   transition: 0.3s all;
 }
