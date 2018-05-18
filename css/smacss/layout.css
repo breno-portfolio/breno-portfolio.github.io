@@ -1,4 +1,7 @@
-#main { padding-top: 25px; }
+#main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
 .l-cem { width: 150px; }
 
