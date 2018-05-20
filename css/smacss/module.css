@@ -1,4 +1,8 @@
-@import "base.css";
+@import "_variaveis.css";
+
+.absolute {
+  position: absolute;
+}
 
 .description {
   padding-top: 20px;
@@ -13,9 +17,14 @@
   border-right: var(--border) !important;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 446px) {
   .border-right {
     border-right-style: none !important;
+  }
+}
+@media screen and (max-width: 321px) {
+  .border-left {
+    border-left-style: none !important;
   }
 }
 

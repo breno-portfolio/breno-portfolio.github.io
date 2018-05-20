@@ -1,10 +1,5 @@
 
-:root {
-  --laranja: #F9621F;
-  --preto: #000;
-  --cinza: #808080;
-  --border: 1px solid var(--cinza);
-}
+@import "_variaveis.css";
 
 /* ============ CORES ============ */
 
@@ -51,7 +46,6 @@ ul {
 
 nav ul li{
   display: inline-block;
-  padding: 0px 25px;
   font-size: 25px;
   width: 120px;
   margin: 15px 0px;

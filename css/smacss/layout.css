@@ -1,3 +1,4 @@
+
 #main {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -18,4 +19,21 @@
 
 .l-ornamento-inferior {
 background-image: url("../../img/p2.png");
+}
+
+.l-triagulos {
+  background-image: url(../../img/left.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 1080px;
+  float: left;
+}
+
+@media screen and (max-width: 496px) {
+  .l-triagulos {
+    display: none;
+  }
+  #main {
+    padding-left: 0;
+  }
 }
