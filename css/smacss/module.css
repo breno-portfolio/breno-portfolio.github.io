@@ -40,3 +40,15 @@
   margin-top: 50px;
   font-size: 30px;
 }
+
+.img-port {
+  box-shadow: 1px 1px 5px 0px grey;
+  width: 100px;
+  border-bottom: 2px solid #f9621f;
+  margin: 5px;
+}
+
+.img-port:hover {
+   transform: scale(2.5);
+   transition: 0.5s all;
+}

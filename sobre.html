@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Breno | Portifólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Ícone -->
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/material-kit.min.css">
+    <!-- smacss css -->
+    <link rel="stylesheet" type="text/css" href="css/smacss/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/smacss/base.css">
+    <link rel="stylesheet" type="text/css" href="css/smacss/module.css">
+  </head>
+  <body>
+    <div class="l-triagulos-top"></div>
+    <div id="main">
+      <div class="l-triagulos-esquerda"></div>
+    	<div class="container">
+        <!-- cabeçalho -->
+  	    <div class="col-md-12 text-center ml-auto mr-auto">
+      	  <img class="l-cem" src="img/logo.png" alt="Logo">
+          <p class="description cinza">Designer Gráfico, Web Designer, Programador e Músico.</p>
+
+          <nav><!-- menu -->
+        	  <ul>
+              <a href="index.html"><li>Início</li></a>
+              <a href="sobre.html"><li class="border-right border-left">Sobre</li></a>
+              <a href="#"><li>Contato</li></a>
+            </ul>
+    	    </nav><!-- fim menu -->
+
+          <!-- redes sociais -->
+          <a class="icon" href="https://www.behance.net/100breno100130" target="_blank">
+            <i class="fa fa-behance laranja"></i>
+          </a>
+          <a class="icon" href="#" target="_blank">
+            <i class="fa fa-facebook cinza"></i>
+          </a>
+          <a class="icon" href="#" target="_blank">
+            <i class="fa fa-instagram cinza"></i>
+          </a>
+          <!-- fim redes sociais -->
+        </div><!-- fim cabeçalho -->
+      </div>
+
+      <section class="col-md-5 mr-auto ml-auto text-center">
+        <img src="img/ornamento.png" width="70px"><br><br>
+        Olá, seja bem vindo ao meu portifólio! <br>
+        <article class="text-justify">
+          A arte me fascina e o meu desejo é fazer com que as outras pessoas sintam o mesmo. <br>
+          Sou formado em Técnico em Informática pelo Instituto Federal do Rio Grande do Norte (IFRN).
+          Atualmente faço gradução em Análise e Desenvolvimento de Sistemas.<br>
+          Sou músico de banda, toco clarinete há 5 anos e possuo formação básica.
+        </article>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 text-left">
+              <h4 class="geometric">Breno Silva</h4>
+              <p class="cinza">Entre em contato para conversamos sobre o seu projeto :)<br>
+              © Todas imagens contém direitos autorais.</p>
+            </div>
+            <div class="col">
+              <a class="scroll" href="#main"><i class="fa fa-chevron-circle-up c-top laranja"></i></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <br>
+              <span>Desenvolvido por Breno Silva</span><br>
+              <small class="laranja"> Copyright &copy; <script> document.write(new Date().getFullYear()) </script>, Todos os Direitos Reservados.</small>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+  <script>
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+    });
+  });
+</script>
+</body>
+</html>

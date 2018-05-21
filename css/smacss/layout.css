@@ -23,9 +23,10 @@ background-image: url("../../img/p2.png");
 
 .l-triagulos-esquerda {
   background-image: url(../../img/left.png);
-  background-repeat: no-repeat;
+  background-repeat-y: repeat;
   width: 80px;
-  height: 1080px;
+  height: 800px;
+  /* height: 1600px; */
   float: left;
 }
 
