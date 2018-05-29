@@ -25,9 +25,9 @@ background-image: url("../../img/p2.png");
   background-image: url(../../img/left.png);
   background-repeat-y: repeat;
   width: 80px;
-  height: 800px;
-  /* height: 1600px; */
+  height: 1600px;
   float: left;
+  position: absolute;
 }
 
 .l-triagulos-top {
@@ -52,4 +52,12 @@ background-image: url("../../img/p2.png");
   #main {
     padding-left: 0;
   }
+}
+
+.freebirdHeaderMast {
+    height: 100px !important;
+}
+
+.freebirdFormviewerViewNavigationSubmitButton {
+    background-color: #f9621f !important;
 }
