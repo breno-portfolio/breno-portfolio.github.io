@@ -50,7 +50,7 @@
       </div>
 
       <div class="container">
-        <section class="row">
+        <section id="logos" class="row">
           <div class="col-md-3 col-sm-12">
             <br>
             <h3 class="geometric uppercase">Logotipos</h3>
@@ -59,7 +59,7 @@
           <div class="col-md-9 col-sm-12 text-center">
             <br>
             <!--Imagens-->
-            <img class="img-port" src="img/projetos/logotipos/tecinf.jpg" alt="logotipo13">
+            <img class="img-port" src="img/projetos/logotipos/tecinf.jpg" alt="logotipo13" > <!-- data-toggle="modal" data-target="#myModal" onclick="img('img/projetos/logotipos/tecinf.jpg')" -->
             <img class="img-port" src="img/projetos/logotipos/escola_musica.jpg" alt="logotipo2">
             <img class="img-port" src="img/projetos/logotipos/semadec.jpg" alt="logotipo11">
             <img class="img-port" src="img/projetos/logotipos/outras_palavras.jpg" alt="logotipo8">
@@ -78,7 +78,7 @@
 
         <hr class="hr-division">
 
-        <section class="row">
+        <section id="cartazes" class="row">
           <div class="col-md-3 col-sm-12">
             <h3 class="geometric uppercase">Cartazes</h3>
             <hr class="hr-bottom">
@@ -98,7 +98,7 @@
 
         <hr class="hr-division">
 
-        <section class="row">
+        <section id="camisas" class="row">
           <div class="col-md-3 col-sm-12">
             <h3 class="geometric uppercase">Camisetas</h3>
             <hr class="hr-bottom">
@@ -148,17 +148,29 @@
             <!--Imagens-
           </div>
         </section>
+-->
 
-        <section class="row">
+        <hr class="hr-division">
+
+        <section id="sites" class="row">
           <div class="col-md-3 col-sm-12">
             <h3 class="geometric uppercase">Websites</h3>
             <hr class="hr-bottom">
           </div>
           <div class="col-md-9 col-sm-12">
-            <!--Imagens-
+            <br>
+            <a href="https://breno-silva1.github.io/Sites/Alien-Game/" target="_blank">
+              <img class="img-port" src="img/projetos/sites/s3.jpg" alt="site1">
+            </a>
+            <a href="https://breno-silva1.github.io/Sites/Literarte/" target="_blank">
+              <img class="img-port" src="img/projetos/sites/s2.jpg" alt="site2">
+            </a>
+            <a href="https://breno-silva1.github.io/Sites/Med-System/" target="_blank">
+              <img class="img-port" src="img/projetos/sites/s1.jpg" alt="site3">
+            </a>
           </div>
         </section>
--->
+
         <footer class="footer">
           <div class="container">
             <div class="row">
@@ -182,21 +194,16 @@
         </footer>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+              <div id="modal-img" class="modal-body">
+
               </div>
             </div>
           </div>
@@ -206,6 +213,7 @@
     </div>
     <!-- Scripts -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modal-img.js"></script>
     <script>
   	jQuery(document).ready(function($) {
   		$(".scroll").click(function(event){event.preventDefault();

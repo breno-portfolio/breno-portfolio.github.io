@@ -52,6 +52,10 @@
   margin: 5px;
 }
 
+#sites .img-port {
+  width: 200px;
+}
+
 .img-port:hover {
    transform: scale(1.5);
    transition: 0.5s all;
