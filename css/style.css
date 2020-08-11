@@ -1,11 +1,43 @@
+/** MEUS ESTILOS **/
+
+:root {
+	--rosa: #fc3a3a;
+	--roxo: #7b0d62;
+	--gradiente: linear-gradient(0deg, #7b0d62, #fc3a3a);
+}
+
 body {
 	background: #eee !important;
+}
+
+.bg-primary {
+  background: var(--gradiente) !important;
+}
+
+.text-primary {
+  color: var(--roxo) !important;
+}
+
+.text-secondary {
+  color: var(--rosa) !important;
+}
+
+a {
+  color: var(--rosa);
+}
+
+a:hover, a:focus, a:active {
+  color: var(--roxo);
+}
+
+.social-icons a:hover {
+  background: var(--gradiente);
 }
 
 .img-port {
   box-shadow: 1px 1px 5px 0px grey;
   width: 150px;
-  border-bottom: 2px solid #f9621f;
+  border-bottom: 2px solid var(--roxo);
   margin: 5px;
 }
 
@@ -13,3 +45,5 @@ body {
    transform: scale(1.5);
    transition: 0.5s all;
 }
+
+
