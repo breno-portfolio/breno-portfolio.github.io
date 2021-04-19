@@ -7,7 +7,7 @@
 }
 
 body {
-	background: #eee !important;
+	background: #fff !important;
 }
 
 .bg-primary {
@@ -35,15 +35,24 @@ a:hover, a:focus, a:active {
 }
 
 .img-port {
-  box-shadow: 1px 1px 5px 0px grey;
-  width: 150px;
-  border-bottom: 2px solid var(--roxo);
-  margin: 5px;
+  box-shadow: 1px 1px 5px 0px #808080b5;
+  width: 250px;
+  height: 250px;
+  /* border-bottom: 2px solid var(--roxo); */
+  margin: 10px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .img-port:hover {
-   transform: scale(1.5);
-   transition: 0.5s all;
+  border: 1px solid gray;
 }
 
+.img-port img {
+  transition: 0.5s all;
+}
 
+.img-port img:hover {
+  transform: scale(1.2);
+  transition: 0.5s all;
+}
