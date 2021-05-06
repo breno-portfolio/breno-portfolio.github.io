@@ -34,6 +34,10 @@ a:hover, a:focus, a:active {
   background: var(--gradiente);
 }
 
+.box-shadow {
+  box-shadow: 1px 1px 5px 0px #808080b5;
+}
+
 .img-port {
   box-shadow: 1px 1px 5px 0px #808080b5;
   width: 250px;
