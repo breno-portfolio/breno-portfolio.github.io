@@ -10,6 +10,18 @@ body {
 	background: #fff !important;
 }
 
+.bg-rosa {
+  background-color: var(--rosa) !important;
+}
+
+.bg-roxo {
+  background-color: var(--roxo) !important;
+}
+
+.branco {
+  color: white !important;
+}
+
 .bg-primary {
   background: var(--gradiente) !important;
 }
